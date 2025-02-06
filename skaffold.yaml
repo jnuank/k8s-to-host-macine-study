@@ -6,4 +6,6 @@ manifests:
   helm:
     releases:
       - name: test
-        chartPath: helm
+        chartPath: curl-pod
+      - name: test-service
+        chartPath: none-cluster-ip-service
